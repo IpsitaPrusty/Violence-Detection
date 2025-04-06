@@ -1,14 +1,3 @@
-# Violence Detection by CNN + LSTM
-[![GitHub stars](https://img.shields.io/github/stars/hasnainnaeem/Violence-Detection-in-Videos)](https://github.com/hasnainnaeem/Violence-Detection-in-Videos/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/hasnainnaeem/Violence-Detection-in-Videos)](https://github.com/hasnainnaeem/Violence-Detection-in-Videos/network)
-[![GitHub issues](https://img.shields.io/github/issues/hasnainnaeem/Violence-Detection-in-Videos)](https://github.com/hasnainnaeem/Violence-Detection-in-Videos/issues)
-
-This repo is extension of [Joshua's project](https://github.com/JoshuaPiinRueyPan/ViolenceDetection). Some additions made to project are:
-- Real-time Predictions on Video Feed from Camera
-- Main.py file to demonstrate all the features of project
-- Code modifications to make it work on google colab. Colab notebook is included in the repo. To setup on colab, [upload this zipped project file](https://drive.google.com/file/d/1a1tEKM9ofqBBj-rlDAc8zQOch42eCn8Y/view?usp=sharing) on your google drive in root directory and run the code in colab notebook. 
-- Work on Gunshot Detection in Audio. You can find the code and custom dataset details [here](https://github.com/hasnainnaeem/Gunshot-Detection-in-Audio). Intent was to later combine the modalities or by combining the predictions.
-
 ## Approach
 The proposed approach outperforms the state-of-the-art methods, while still processing the videos in real-time.
 The proposed model has the following advantages:
@@ -16,8 +5,6 @@ The proposed model has the following advantages:
 2. The ability to learn the local motion features by examined the concatenated two frames using CNN.
 3. The ability to learn the global temporal features by LSTM cell.
 ![](src/net/G2D19_P2OF_CNN_1LSTM_series.png)
-
-For more information, please refer to [Joshua's article](http://joshua-p-r-pan.blogspot.tw/2018/05/violence-detection-by-cnn-lstm.html).
 
 ## Requirements
 - Python3
